@@ -1,0 +1,40 @@
+.sidebar {
+    position: relative;
+    height: calc(80vh - 20px);
+    width: calc(80vh - 20px);
+    max-width: 50%;
+    margin: 100px;
+    background-color: lightgrey;
+    overflow: hidden;
+    border-radius: 3px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+  }
+
+  .sidebar ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .sidebar li {
+    margin-right: 10px;
+    margin-bottom: 5px;
+  }
+
+  @media (max-width: 768px) {
+    .sidebar {
+      flex: 0 0 100%; /* Take full width on mobile */
+    }
+  
+    .sidebar ul.coordinates-list {
+      flex-direction: row; /* Display coordinates horizontally */
+      flex-wrap: wrap;
+    }
+  
+    .sidebar ul.coordinates-list li {
+      margin-right: 10px;
+      margin-bottom: 10px; /* Increased margin for mobile */
+    }
+  }

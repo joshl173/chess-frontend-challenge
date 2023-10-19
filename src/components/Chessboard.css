@@ -1,0 +1,29 @@
+.chessboard {
+  position: relative;
+  display: flex;
+  flex: 1;
+  max-width: 70%;
+  flex-direction: column;
+  margin: 100px;
+}
+
+
+.chessboard-row {
+  display: flex;
+}
+
+.white {
+  width: 90px;
+  height: 90px;
+  background-color: #f0d9b5;
+}
+
+.black {
+  width: 90px;
+  height: 90px;
+  background-color: #b58863;
+}
+
+.highlighted {
+  background-color: yellow;
+}
