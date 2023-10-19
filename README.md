@@ -1,5 +1,5 @@
 # chess-app
-Workign demo available here: https://joshl173.github.io/chess-frontend-challenge/
+Working demo available here: https://joshl173.github.io/chess-frontend-challenge/
 
 ## Project setup
 ```
